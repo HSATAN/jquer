@@ -5,10 +5,11 @@
     <title>jquery首页</title>
 </head>
 <body>
-这是一个项目的首页<br>
+<h1><a href="add_article">添加新文章</a></h1><br>
 {% for article in articles %}
-<h1>{{ article.title }}</h1>
-<h3>{{ article.content }}</h3>
+    <a href="{% url 'ajax:article' article.id%}"><h1>{{ article.title }}</h1></a>
+    {% empty %}
+    <h1>目前还没有文章</h1>
 {% endfor %}
 </body>
 </html>

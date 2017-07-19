@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加新文章</title>
+</head>
+<body>
+<form action="add_article" method="post">文章标题
+    {% csrf_token %}
+    <label type="">
+    <input type="text" value="请输入标题" maxlength="64" id="title" name="title">
+    </label>
+    <br>
+    <label>文章内容
+       <textarea id="content" name="content">文章内容</textarea>
+</label>
+    <br>
+    <input type="submit" value="提交">
+
+</form>
+</body>
+</html>

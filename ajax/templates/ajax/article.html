@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <script src="/static/jquery-3.2.1.min.js"></script>
+    <title>{{ article.title }}</title>
+</head>
+<body>
+<h1 id="title">{{ article.title }}</h1>
+<br>
+<article id="content">{{ article.content }}
+</article>
+<br>
+<b><i><u><h1 id="edit">编辑文章</h1></u></i></b>
+<script>
+    $(document).ready(function () {
+
+
+        $("#edit").click(function () {
+            if ($("#new_title").length<1){
+
+         var title=$("#title").text();
+        var content=$("#content").text();
+        var url="{% url 'ajax:edit_article' article.id %}"
+        $("body").prepend('<form method="post" action="'+url+'"></form>');
+        $("form").append('<input maxlength="64" id="new_title" type="text" name="new_title" value="'+title+'" >');
+        $("form").append('<br><textarea name="new_content" id="new_content">'+content+'</textarea>');
+                $("form").append('<br><input id="fix" type="submit" value="确认修改">');
+       $("#title").remove();
+       $("#content").remove();
+                    }
+
+        });
+
+    });
+</script>
+</body>
+</html>
