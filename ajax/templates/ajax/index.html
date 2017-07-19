@@ -6,7 +6,9 @@
 </head>
 <body>
 这是一个项目的首页<br>
+{% for article in articles %}
 <h1>{{ article.title }}</h1>
 <h3>{{ article.content }}</h3>
+{% endfor %}
 </body>
 </html>
