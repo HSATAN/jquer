@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a7678f5-beea-4e2d-827b-f913351f0bf3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliyu/admin.py" afterPath="$PROJECT_DIR$/aliyu/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliyu/models.py" afterPath="$PROJECT_DIR$/aliyu/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliyu/tests.py" afterPath="$PROJECT_DIR$/aliyu/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliyu/views.py" afterPath="$PROJECT_DIR$/aliyu/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query/admin.py" afterPath="$PROJECT_DIR$/query/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query/apps.py" afterPath="$PROJECT_DIR$/query/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query/models.py" afterPath="$PROJECT_DIR$/query/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query/tests.py" afterPath="$PROJECT_DIR$/query/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query/urls.py" afterPath="$PROJECT_DIR$/query/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jqueryproject/settings.py" afterPath="$PROJECT_DIR$/jqueryproject/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,6 +101,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jqueryproject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliyu/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,18 +121,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliyu/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
@@ -170,7 +162,6 @@
         <option value="$PROJECT_DIR$/ajax/urls.py" />
         <option value="$PROJECT_DIR$/ajax/views.py" />
         <option value="$PROJECT_DIR$/query/views.py" />
-        <option value="$PROJECT_DIR$/jqueryproject/settings.py" />
         <option value="$PROJECT_DIR$/query/models.py" />
         <option value="$PROJECT_DIR$/query/tests.py" />
         <option value="$PROJECT_DIR$/query/urls.py" />
@@ -180,6 +171,7 @@
         <option value="$PROJECT_DIR$/aliyu/views.py" />
         <option value="$PROJECT_DIR$/aliyu/models.py" />
         <option value="$PROJECT_DIR$/aliyu/admin.py" />
+        <option value="$PROJECT_DIR$/jqueryproject/settings.py" />
       </list>
     </option>
   </component>
@@ -234,21 +226,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aliyu" />
+              <option name="myItemId" value="jqueryproject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -904,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jqueryproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/query/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -934,16 +904,6 @@
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding>
             <element signature="e#23#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding>
-            <element signature="e#23#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1002,6 +962,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding>
+            <element signature="e#23#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>
